@@ -16,11 +16,13 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
     <link rel="stylesheet" href="../css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/aos.css" />
     <link rel="stylesheet" href="../css/layout.css" />
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/common.css" />
 
     <script src="../js/swiper-bundle.min.js"></script>
+    <script src="../js/aos.js"></script>
   </head>
   <body>
     <header id="header">
@@ -92,7 +94,7 @@
     <!-- mainVisual end -->
     <section id="info" class="section">
       <div class="system contentsBox">
-        <h2 class="title">
+        <h2 class="title" data-aos="fade-up" data-aos-duration="1000">
           안전하고, 효율적인<br />
           지능형 교통 시스템
         </h2>
@@ -103,7 +105,7 @@
         <div class="btns"><a href="" class="btn arrow">BUSINESS</a></div>
       </div>
       <div class="b2c contentsBox">
-        <h2 class="title">
+        <h2 class="title" data-aos="fade-up" data-aos-duration="1000">
           도로 위에서 빛나는 제품<br />
           아이트로닉스 B2C
         </h2>
@@ -119,8 +121,10 @@
       <div class="txtBox">
         <h2>OUR BUSINESS</h2>
         <p>
-          안전하고 편리한 세상 만들기<br />편리한 일상생활과 완전한 자율주행 시대를<br />앞당기기 위한 끊임없는 열정<br />아이트로닉스가 이끌어 나갈
-          미래입니다.
+          <span data-aos="fade-up" data-aos-duration="1000">안전하고 편리한 세상 만들기</span><br />
+          <span data-aos="fade-up" data-aos-duration="1000">편리한 일상생활과 완전한 자율주행 시대를</span><br />
+          <span data-aos="fade-up" data-aos-duration="1000">앞당기기 위한 끊임없는 열정</span><br />
+          <span data-aos="fade-up" data-aos-duration="1000">아이트로닉스가 이끌어 나갈 미래입니다.</span>
         </p>
       </div>
     </section>
@@ -129,7 +133,7 @@
       <div class="video">
         <video src="../images/video_c-its.mp4" autoplay muted loop></video>
       </div>
-      <div class="txtBox">
+      <div class="txtBox" data-aos="fade-up" data-aos-duration="1000">
         <h2 class="title">C-ITS</h2>
         <p class="sub">협력 지능형 교통체계</p>
         <p class="desc">
@@ -144,7 +148,7 @@
       <div class="video">
         <video src="../images/video_hipass.mp4" autoplay muted loop></video>
       </div>
-      <div class="txtBox">
+      <div class="txtBox" data-aos="fade-up" data-aos-duration="1000">
         <h2 class="title">다차로 하이패스</h2>
         <p class="sub">빠르고 안전한 무정차 통행료 시스템</p>
         <p class="desc">
@@ -154,8 +158,150 @@
         <div class="btns"><a href="" class="btn arrow">VIEW MORE</a></div>
       </div>
     </section>
+    <section id="product" class="section">
+      <div class="bg"></div>
+      <div class="contentsBox">
+        <div class="titleBox">
+          <p>PRODUCT</p>
+          <h2 class="title">안전하고 쾌적한 주행을 위한<br />블랙박스</h2>
+        </div>
+        <div class="rolling">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <a href="">
+                <img src="../images/main/box01.png" alt="" />
+                <p>X2</p>
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="">
+                <img src="../images/main/box02.png" alt="" />
+                <p>X1</p>
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="">
+                <img src="../images/main/box03.png" alt="" />
+                <p>ITB-8000QHD</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="navigation">
+          <button class="prev"></button>
+          <button class="next"></button>
+          <a href="">VIEW MORE</a>
+        </div>
+      </div>
+    </section>
+    <!-- product end -->
+    <section id="make" class="section">
+      <a href=""><h2 class="title" data-aos="fade" data-aos-duration="3000">모두가 함께 생각하고 결과를 만드는 아이트로닉스</h2></a>
+      <p data-aos="fade-up" data-aos-duration="1000">
+        친숙하고 좋은 제품으로 오랜기간 꾸준히 사랑받은 기업으로써,<br />
+        어떠한 환경에서도 최적의 성능을 구현하는 것을 최우선으로 두고 있습니다.<br />
+        우리는 모든 아이디어를 경청하며, 전문기술과 만나 그 아이디어가 결과물로 나올 수 있도록 지원과 노력을 아끼지 않습니다.
+      </p>
+      <img src="../images/main/bg_make.jpg" alt="" data-aos="fade-up" data-aos-duration="1000" />
+    </section>
+    <!-- make end -->
+    <section id="news" class="section">
+      <h2 class="title" data-aos="fade-up" data-aos-duration="1000">
+        아이트로닉스의 소식을<br />
+        확인하세요.
+      </h2>
+      <ul class="menu" data-aos="fade-up" data-aos-duration="1000">
+        <li><a href="">ALL</a></li>
+        <li><a href="">NOTICE</a></li>
+        <li><a href="">NEWS</a></li>
+      </ul>
+      <ul class="contents" data-aos="fade-up" data-aos-duration="1000">
+        <li>
+          <a href="">
+            <div class="newsBox"><span class="news">NEWS</span><span class="date">22.06.18</span></div>
+            <div class="txt">
+              <p>아이트로닉스 신규 홈페이지 오픈</p>
+            </div>
+            <span class="more">VIEW MORE</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <div class="newsBox"><span class="news">NEWS</span><span class="date">22.05.13</span></div>
+            <div class="txt">
+              <p>아이트로닉스, V2X C-ITS 통신기술 실증시험 환경구축 사업 선정</p>
+            </div>
+            <span class="more">VIEW MORE</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <div class="newsBox"><span class="news">NEWS</span><span class="date">22.04.20</span></div>
+            <div class="txt">
+              <p>아이트로닉스, 지능형교통체계(ITS) 성능평가 데이터 수집 용역 수주</p>
+            </div>
+            <span class="more">VIEW MORE</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <div class="newsBox"><span class="news">NEWS</span><span class="date">22.04.15</span></div>
+            <div class="txt">
+              <p>아이트로닉스, 와이파이 연동 가성비 블랙박스 ‘아이패스블랙 X1∙X2’ 출시</p>
+            </div>
+            <span class="more">VIEW MORE</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <!-- news end -->
+    <div id="footer">
+      <div class="fLogo">
+        <img src="../images/common/logo-b.svg" alt="" />
+      </div>
+      <div class="addressBox">
+        <div class="customer">
+          <dl>
+            <dt>고객센터</dt>
+            <dd>1588-7064</dd>
+          </dl>
+          <a href="">문의하기</a>
+        </div>
+        <address>
+          <p>
+            <span>상호 : (주)아이트로닉스</span>
+            <span>주소 : 경기도 용인시 기흥구 중부대로 56번길 15 (영덕동 516-1번지)</span>
+          </p>
+          <p>TEL. 031-217-1063 FAX. 031-217-1067</p>
+        </address>
+        <div class="utilMenu">
+          <ul>
+            <li><a href="">이용약관</a></li>
+            <li><a href="">개인정보처리방침</a></li>
+          </ul>
+          <p class="copyright">Copyright ⓒ 2022 아이트로닉스. All Rights Reserved.</p>
+        </div>
+      </div>
+      <div class="familySite">
+        <select class="" title="FAMMILY SITE">
+          <option value="https://www.itronics.co.kr/">FAMILY SITE</option>
+          <option value="http://www.ilscience.co.kr/ko/">IL SCIENCE</option>
+          <option value="http://www.banzzak.co.kr/">IL LIGHTING</option>
+          <option value="http://www.conus.kr/">IL CONUS</option>
+          <option value="http://www.follinic.co.kr/index.html">FOLLINIC</option>
+          <option value="http://www.kailux.co.kr/">KAILUX</option>
+          <option value="https://aheads.co.kr/">AHEADS</option>
+          <option value="https://www.achakey.net/">ACHAKEY</option>
+          <option value="http://cdprestige.co.kr/">CLIFDESIGN</option>
+        </select>
+      </div>
+    </div>
   </body>
   <script>
+    AOS.init({
+      // once: true,
+    });
+
     const gnb = document.querySelector("#gnb");
     const header = document.querySelector("#header");
     gnb.addEventListener("mouseenter", function () {
@@ -183,6 +329,16 @@
       } else {
         sticker.classList.remove("scroll");
       }
+    });
+
+    new Swiper("#product .rolling", {
+      slidesPerView: "auto",
+      // 정해진 크기대로 세팅
+      spaceBetween: 50,
+      navigation: {
+        prevEl: "#product .navigation .prev",
+        nextEl: "#product .navigation .next",
+      },
     });
   </script>
 </html>
