@@ -205,14 +205,14 @@ a {
   }
 }
 //media query
-@media all and (max-width: 1280px) {
-  #header {
-    color: #fff;
-    background-color: #000;
-  }
-  #gnb {
-    .list {
-      flex-direction: column;
-    }
-  }
-}
+// @media all and (max-width: 1280px) {
+//   #header {
+//     color: #fff;
+//     background-color: #000;
+//   }
+//   #gnb {
+//     .list {
+//       flex-direction: column;
+//     }
+//   }
+// }

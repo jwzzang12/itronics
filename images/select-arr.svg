@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="9" viewBox="0 0 14 9">
+    <defs>
+        <clipPath id="2ibmvyus8a">
+            <path data-name="사각형 308" style="fill:#fff;stroke:#707070" d="M0 0h14v9H0z"/>
+        </clipPath>
+    </defs>
+    <g style="opacity:.8">
+        <g data-name="마스크 그룹 71" style="clip-path:url(#2ibmvyus8a)" transform="rotate(180 7 4.5)">
+            <path data-name="패스 72" d="M0 0h8.015v8.015" transform="rotate(-45 9.166 1.913)" style="fill:none;stroke:#000;stroke-width:1.5px"/>
+        </g>
+    </g>
+</svg>

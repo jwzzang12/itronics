@@ -1,0 +1,127 @@
+<? include("../include/header.html"); ?>
+<div class="subVisual" id="subVisual05">
+  <div class="container">
+    <h2 class="subTitle">문의하기</h2>
+  </div>
+</div>
+<div class="subContents">
+  <div class="container">
+    <form action="">
+      <div class="inner">
+        <div class="agreement">
+          <strong>개인정보 수집·이용에 대한 안내 (필수 수집·이용 항목)</strong>
+          <label><input type="checkbox" /> <span>동의합니다.</span></label>
+        </div>
+        <textarea name="contents" cols="30" rows="15" readonly>
+개인정보의 보유 및 이용기간
+
+(주) 아이트로닉스(이하 '회사'라 한다)는 개인정보 보호법 제30조에 따라 정보주체의 개인정보를 보호하고 이와 관련한 고충을 신속하고 원활하게 처리할 수 있도록 하기 위하여 다음과 같이 개인정보 처리지침을 수립 공개합니다.
+
+개인정보의 수집·이용 목적
+
+회사 홈페이지 상에서 제공되는 서비스 상품의 주문에 대한 접수 및 대금 결재 그리고 궁금증 및 제안사항 뿐만 아니라, 고객님께 제공되는 주문상품 배송정보 및 기타 각종 편의 서비스를 제공하기 위하여 필요한 최소한의 정보를 수집하고 있습니다.
+
+위의 개인정보 수집 목적 이외에 다른 용도로 정보를 이용하거나 회원의 동의 없이 제3자에게 회원 정보를 제공할 수 없으며 회원 정보의 분실, 도난, 유출, 변조가 발생하고 이에 따라 회원이 피해를 입을 경우 Itronics 책임집니다.
+
+수집하는 개인정보의 항목
+회사는 회원들을 대상으로 위에서 밝힌 수집 목적으로 다음과 같은 필수 회원정보를 받습니다.
+
+① 성명
+② E-mail
+③ 연락처
+개인정보의 수정 및 보유 기간
+고객의 개인 정보는 삭제를 원하실 경우 E-mail, 또는 전화상으로 고객센터에 요청하시면 언제든지 삭제됩니다.
+
+개인정보 파기절차 및 방법
+고객의 개인 정보는 원칙적으로 개인정보의 수집 및 이용목적이 달성되면 지체 없이 파기합니다. 회사의 개인정보 파기절차 및 방법은 다음과 같습니다.
+
+① 파기절차
+
+- 이용자가 회원가입 등을 위해 입력한 정보는 목적이 달성된 후 별도의 DB로 옮겨져(종이의 경우 별도의 서류함) 내부 방침 및 기타 관련 법령에 의한 정보보호 사유에 따라 일정 기간 저장된 후 파기됩니다.
+
+- 동 개인정보는 법률에 의한 경우가 아니고서는 보유되는 이외의 다른 목적으로 이용되지 않습니다.
+
+② 파기방법
+
+- 종이에 출력된 개인정보는 분쇄기로 분쇄하거나 소각을 통하여 파기합니다.
+
+- 전자적 파일 형태로 저장된 개인정보는 기록을 재생할 수 없는 기술적 방법을 사용하여 삭제합니다.
+
+개인정보의 제공 및 공유
+회사는 회원의 고객 개인정보는 원칙적으로 제3기관 및 제3자에게 제공 될 수 없으며 회사가 회원님께 편의를 제공하기 위하여 특정 회사에 개인정보를 제공하고자 할 경우에는 반드시 회원님께 해당되는 합당한 절차를 통하여 동의를 구하도록 되어 있습니다. 단, 아이패스 이용약관 15조 3항에 의거 다음 경우에 한하여 고객의 동의 없이 개인정보를 제공할 수 있습니다.
+
+① 업무상 구매에 필요한 최소한의 이용자정보(성명, 주소, 전화번호)를 알려주는 경우.
+
+예) 택배 발송 시
+
+② 통계작성, 학술연구 또는 시장조사를 위하여 필요한 경우로서 특정 개인을 식별할 수 없는 형태로 제공하는 경우
+
+예) 국가별 사용량을 분석하기 위한 자료
+                              </textarea
+        >
+      </div>
+      <div class="inner basic">
+        <input type="text" placeholder="이름을 입력해 주세요." required />
+        <input type="text" placeholder="연락처를 입력해 주세요." required />
+      </div>
+      <div class="inner">
+        <input type="text" placeholder="답변을 확인하실 이메일 주소를 입력해 주세요." required="email" />
+      </div>
+      <div class="inner select">
+        <dl>
+          <dt>문의 종류</dt>
+          <dd>
+            <select name="category">
+              <option value="1">문의 종류를 선택하세요.</option>
+              <option value="2">제품관련 문의</option>
+              <option value="3">제휴/제안 문의</option>
+              <option value="4">기술관련 문의</option>
+              <option value="5">기타</option>
+            </select>
+          </dd>
+        </dl>
+        <dl>
+          <dt>문의 상세</dt>
+          <dd>
+            <select name="desc">
+              <option value="1">선택안함</option>
+            </select>
+          </dd>
+        </dl>
+      </div>
+      <div class="inner question">
+        <dl>
+          <dt>문의 내용</dt>
+          <dd><input type="text" placeholder="문의 제목을 입력해 주세요. (50자 이하)" maxlength="50" required /></dd>
+        </dl>
+        <textarea placeholder="문의 내용을 입력해 주세요." cols="30" rows="20"></textarea>
+      </div>
+      <div class="inner attachment">
+        <dl>
+          <dt>첨부파일</dt>
+          <div class="fileBox">
+            <dd>
+              <input type="text" class="file" placeholder="파일을 업로드 해주세요." readonly />
+              <label><input type="file" /><span>파일 업로드</span></label>
+            </dd>
+          </div>
+        </dl>
+        <p>
+          <span>첨부파일은 jpg, pdf, png 파일만 업로드 가능합니다.</span> <br />
+          <span>기타 문의 사항은 고객센터 1588-7064를 이용해 주시기 바랍니다.</span>
+        </p>
+      </div>
+      <button>문의하기</button>
+    </form>
+  </div>
+</div>
+<script>
+  const file = document.querySelector(".fileBox input[type='file']");
+  const fakeFileTxt = document.querySelector(".fileBox .file");
+  file.addEventListener("change", function () {
+    const fileName = file.value;
+    fakeFileTxt.value = fileName;
+    console.log(fileName);
+  });
+</script>
+<? include("../include/footer.html"); ?>

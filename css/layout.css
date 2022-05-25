@@ -240,13 +240,3 @@ a {
   background-repeat: no-repeat;
   background-image: url("../images/common/arrow.svg");
 }
-
-@media all and (max-width: 1280px) {
-  #header {
-    color: #fff;
-    background-color: #000;
-  }
-  #gnb .list {
-    flex-direction: column;
-  }
-}
