@@ -1,0 +1,87 @@
+<div id="footer">
+  <div class="fLogo">
+    <img src="../images/common/logo-b.svg" alt="" />
+  </div>
+  <div class="addressBox">
+    <div class="customer">
+      <dl>
+        <dt>고객센터</dt>
+        <dd>1588-7064</dd>
+      </dl>
+      <a href="inquiry.html">문의하기</a>
+    </div>
+    <address>
+      <p>
+        <span>상호 : (주)아이트로닉스</span>
+        <span>주소 : 경기도 용인시 기흥구 중부대로 56번길 15 (영덕동 516-1번지)</span>
+      </p>
+      <p>TEL. 031-217-1063 FAX. 031-217-1067</p>
+    </address>
+    <div class="utilMenu">
+      <ul>
+        <li><a href="">이용약관</a></li>
+        <li><a href="">개인정보처리방침</a></li>
+      </ul>
+      <p class="copyright">Copyright ⓒ 2022 아이트로닉스. All Rights Reserved.</p>
+    </div>
+  </div>
+  <div class="familySite">
+    <select class="" title="FAMMILY SITE">
+      <option value="https://www.itronics.co.kr/">FAMILY SITE</option>
+      <option value="http://www.ilscience.co.kr/ko/">IL SCIENCE</option>
+      <option value="http://www.banzzak.co.kr/">IL LIGHTING</option>
+      <option value="http://www.conus.kr/">IL CONUS</option>
+      <option value="http://www.follinic.co.kr/index.html">FOLLINIC</option>
+      <option value="http://www.kailux.co.kr/">KAILUX</option>
+      <option value="https://aheads.co.kr/">AHEADS</option>
+      <option value="https://www.achakey.net/">ACHAKEY</option>
+      <option value="http://cdprestige.co.kr/">CLIFDESIGN</option>
+    </select>
+  </div>
+</div>
+</body>
+<script>
+AOS.init({
+  // once: true,
+});
+
+const gnb = document.querySelector("#gnb");
+const header = document.querySelector("#header");
+gnb.addEventListener("mouseenter", function () {
+  header.classList.add("on");
+});
+gnb.addEventListener("mouseleave", function () {
+  header.classList.remove("on");
+});
+
+window.addEventListener("scroll", function () {
+  // console.log("iamscrolling", window.scrollY);
+  //window.scrollY 0이면 제일 꼭대기. 그렇지 않으면 scroll이 내려가는 중
+  if (window.scrollY > 0) {
+    header.classList.add("scroll");
+  } else {
+    header.classList.remove("scroll");
+  }
+});
+
+window.addEventListener("scroll", function () {
+  // console.log("iamscrolling", window.scrollY);
+  //window.scrollY 0이면 제일 꼭대기. 그렇지 않으면 scroll이 내려가는 중
+  if (window.scrollY > 250) {
+    sticker.classList.add("scroll");
+  } else {
+    sticker.classList.remove("scroll");
+  }
+});
+
+new Swiper("#product .rolling", {
+  slidesPerView: "auto",
+  // 정해진 크기대로 세팅
+  spaceBetween: 50,
+  navigation: {
+    prevEl: "#product .navigation .prev",
+    nextEl: "#product .navigation .next",
+  },
+});
+</script>
+</html>

@@ -1,0 +1,281 @@
+#mainVisual {
+  overflow: hidden;
+}
+
+#mainVisual video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+#info .contentsBox {
+  height: 50%;
+  padding: 50px 8vw;
+}
+
+#info .contentsBox .title {
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+#info .contentsBox p {
+  margin-bottom: 80px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#info .system {
+  color: #fff;
+  background-position: right 0 bottom 0;
+  background-color: #e77612;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url("../images/main/business_figure_01.png");
+}
+
+#info .b2c {
+  color: #111;
+  background-position: right 0 bottom 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url("../images/main/business_figure_02.png");
+}
+
+#business {
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/main/bg_business.jpg");
+  background-attachment: fixed;
+  background-position: 50%;
+}
+
+#business .txtBox {
+  text-align: center;
+  padding: 0 8vw;
+  word-break: keep-all;
+}
+
+#business .txtBox p {
+  margin-top: 30px;
+  font-size: 22px;
+  line-height: 2;
+}
+
+#business .txtBox p span {
+  display: inline-block;
+}
+
+.videoContents {
+  position: relative;
+}
+
+.videoContents video {
+  vertical-align: top;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.videoContents .txtBox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 10vw;
+  color: #fff;
+  box-sizing: border-box;
+  word-break: keep-all;
+}
+
+.videoContents .txtBox .title {
+  margin-bottom: 40px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.videoContents .txtBox .sub {
+  margin-bottom: 40px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.videoContents .txtBox .desc {
+  margin-bottom: 80px;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 2;
+}
+
+#product {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+#product .contentsBox {
+  width: 100%;
+  overflow: hidden;
+  padding: 50px 8vw 0;
+  box-sizing: border-box;
+}
+
+#product .contentsBox .titleBox {
+  margin-bottom: 50px;
+}
+
+#product .contentsBox .titleBox .title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+#product .contentsBox .titleBox p {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+#product .contentsBox .rolling {
+  overflow: hidden;
+}
+
+#product .contentsBox .rolling li {
+  width: 150px;
+  text-align: center;
+}
+
+#product .contentsBox .rolling li a img {
+  width: 100%;
+}
+
+#product .contentsBox .rolling li a p {
+  margin-top: 20px;
+  color: #333;
+}
+
+#product .contentsBox .btns {
+  margin-top: 50px;
+}
+
+#make {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  padding: 50px 8vw;
+}
+
+#make .title {
+  margin: 50px 0;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.5;
+  word-break: keep-all;
+}
+
+#make p {
+  margin-bottom: 50px;
+  color: #666;
+  line-height: 2rem;
+  word-break: keep-all;
+  font-size: 15px;
+}
+
+#make p br {
+  content: " ";
+}
+
+#make img {
+  width: 100%;
+}
+
+#news {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 8vw;
+  overflow: hidden;
+}
+
+#news .title {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+#news .menu {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-weight: 500;
+  color: #ccc;
+}
+
+#news .menu li {
+  margin-left: 30px;
+}
+
+#news .contents li {
+  width: 100%;
+  overflow: hidden;
+}
+
+#news .contents li .newsBox {
+  position: relative;
+  margin-bottom: 30px;
+  font-size: 12px;
+}
+
+#news .contents li .newsBox .news {
+  margin-right: 18px;
+  font-weight: 600;
+  color: #222;
+}
+
+#news .contents li .newsBox .date {
+  color: #999;
+}
+
+#news .contents li .newsBox .date::before {
+  width: 1px;
+  height: 10px;
+  top: 2px;
+  left: 43px;
+  background-color: #999;
+  display: block;
+  position: absolute;
+  content: "";
+}
+
+#news .contents li .txt {
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  display: -webkit-box;
+  height: 3em;
+  overflow: hidden;
+  line-height: 1.5;
+  -webkit-line-clamp: 2;
+  /* autoprefixer: off */
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
+
+#news .contents li .more {
+  font-size: 14px;
+  color: #666;
+}
